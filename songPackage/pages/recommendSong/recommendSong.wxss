@@ -1,0 +1,70 @@
+/* 头部样式 */
+.recommendSongContainer .header{
+    position: relative;
+    width: 100%;
+    height: 300rpx;    
+}
+.header image {
+    width: 100%;
+    height: 100%;
+}
+.header .date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -35%);
+    width: 300rpx;
+    height: 100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    color: #fff;
+    font-size: 38rpx
+}
+/* 列表区样式 */
+.listContainer {
+    position: relative;
+    top: -20rpx;
+    padding: 0 20rpx;
+    border-radius: 30rpx;
+    background: #fff;
+}
+.listHeader {
+    height: 80rpx;
+    line-height: 80rpx;
+}
+.listHeader .changeMore {
+    float: right;
+}
+/* 内容区域 */
+.listScroll {
+    height: calc(100vh - 380rpx);
+}
+.listScroll .scrollItem {
+    display: flex;
+    margin-bottom: 20rpx;
+}
+.listScroll .scrollItem image {
+    width: 80rpx;
+    height: 80rpx;
+}
+.listScroll .scrollItem .musicInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rpx;
+}
+.musicInfo text {
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 24rpx;
+    max-width: 500rpx;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.scrollItem .iconfont {
+    width: 80rpx;
+    height: 80rpx;
+    text-align: right;
+    line-height: 80rpx;
+}

@@ -1,0 +1,8 @@
+<!-- 推荐歌曲组件 -->
+<view class="header">
+    <text class="title">{{title}}</text>
+    <view>
+        <text>{{nav}}</text>
+        <text class="more">查看更多</text>
+    </view>
+</view>
